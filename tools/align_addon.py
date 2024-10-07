@@ -1,7 +1,8 @@
 """
 
-Add-on for Blender: Aligning 3D Models (Mainly Human Heads) to Coordinate Axes Using Four Points
-Overview: This add-on provides three main functionalities to align 3D models, particularly human heads, to the coordinate axes in Blender. The alignment is based on four key points: the right ear, left ear, nose, and top of the head.
+Add-on for Blender: Aligning 3D Models (Mainly Human Heads) to interaural axis using four points
+
+OVERVIEW: The alignment is based on four key points: the right ear, left ear, nose, and top of the head.
 
 GET VERTICES:
 This functionality has four buttons: "Right Ear", "Left Ear", "Nose", and "Top Head". To use it, first select the corresponding vertex and then click the appropriate button. The order of selection does not matter.
@@ -44,7 +45,7 @@ Finally, check that the nose is aligned with the positive X-axis and the top of 
 Delete the face created in Step 1.
 
 Notes:
-This add-on was primarily developed to align 3D models of human heads to the coordinate axes. The alignment is based on four vertices from a PLY file: one for each ear, the nose, and the top of the head.
+This add-on was primarily developed to align 3D models of human heads to the interaural axis. The alignment is based on four vertices from a PLY file: one for each ear, the nose, and the top of the head.
 
 It was created as a tool to support my PhD research, so it is still a work in progress and may be updated in the future.
 
