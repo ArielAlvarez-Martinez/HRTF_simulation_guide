@@ -9,7 +9,7 @@ This experiment involved the simulation of Head-Related Transfer Functions (HRTF
 
 The goal of the experiment was to evaluate the effects of different head geometries details on the accuracy of simulated HRTFs. By comparing these three cases, we aimed to better understand how details like head shape and ear placement affected spatial audio performance, especially in the context of applications like virtual reality and 3D audio simulations.
 
-This document is not an official tutorial from the creators of mesh2HRTF. Instead, it is a guide where I share the steps I followed during my personal experience working with this incredible tool. Along with the steps, I also highlighted errors I encountered and tips on how to avoid them. All simulations in this experiment were performed following the recommendations of the mesh2HRTF tutorials.
+This document is not an official tutorial. Instead, it is a guide where we shared the steps we followed working with this incredible tool. Along with the steps, we also highlighted errors we encountered and tips on how to avoid them. All simulations in this experiment were performed following the recommendations of the mesh2HRTF tutorials.
 
 While the steps for all three cases are similar, this document focused solely on the Potato Mesh workflow as an example. The same methodology could be adapted for the Original Mesh and Kemar Mesh cases
 
@@ -62,13 +62,13 @@ The Potato Mesh was designed as a simplified representation of a human head, wit
 
 - It was essential to maintain symmetry during the creation of the Potato Mesh, as the simplified head model needed to reflect the bilateral symmetry of an actual human head.
 
-- I used Blender’s symmetry tools to ensure the mesh remained evenly shaped on both sides of the interaural axis (Y-axis).
+- We used Blender’s symmetry tools to ensure the mesh remained evenly shaped on both sides of the interaural axis (Y-axis).
 
-- I aligned the potato mesh using the alignment script.
+- We aligned the potato mesh using the alignment script.
 
 4 - Finalizing the Mesh:
-Once the sculpting process was complete, I applied final modifications to ensure that the mesh was watertight and free from unnecessary complexity.
-I also ensured the voxel size of the mesh was consistent with the scale required for HRTF simulation.
+Once the sculpting process was complete, We applied final modifications to ensure that the mesh was watertight and free from unnecessary complexity.
+We also ensured the voxel size of the mesh was consistent with the scale required for HRTF simulation.
 
 5 - Exporting the Potato Mesh:
 
